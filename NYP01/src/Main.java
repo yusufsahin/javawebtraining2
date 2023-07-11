@@ -11,13 +11,10 @@ public class Main {
         Araba araba2= new Araba("BMW","320","Beyaz",220);
         System.out.println("Araba2 : " + araba2.getMarka()+" "+araba2.getModel()+" "+araba2.getRenk()+" "+araba2.getHiz());
         araba.yavasla(60);
-
         araba.bilgileriGoster();
         araba.hizlan(20);
         araba.bilgileriGoster();
-
         araba2.dur();
-        
         araba2.bilgileriGoster();
 
     }
