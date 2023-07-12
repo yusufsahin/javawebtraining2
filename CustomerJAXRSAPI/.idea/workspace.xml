@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f736f99-895d-4af2-bc0d-7ee90225b7ec" name="Changes" comment="" />
+    <list default="true" id="45586ce4-5789-4ff3-8f68-290df327c911" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/application/CustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/application/db/DbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/resources/CustomerResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerServletAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerServletAPI/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2ST7fnjQiYp0vJsY2rSpx02WHg7" />
+  <component name="ProjectId" id="2STIn504EOAVDxpllRqydu32sT7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,7 +40,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -43,13 +53,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.example.contoller" />
+      <recent name="org.example.model" />
+      <recent name="org.example.resources" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
-      <module name="CustomerServletAPI" />
+      <module name="CustomerJAXRSAPI" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -69,12 +80,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7f736f99-895d-4af2-bc0d-7ee90225b7ec" name="Changes" comment="" />
-      <created>1689158822654</created>
+      <changelist id="45586ce4-5789-4ff3-8f68-290df327c911" name="Changes" comment="" />
+      <created>1689164309991</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1689158822654</updated>
-      <workItem from="1689158823687" duration="5315000" />
+      <updated>1689164309991</updated>
+      <workItem from="1689164311344" duration="2469000" />
     </task>
     <servers />
   </component>
