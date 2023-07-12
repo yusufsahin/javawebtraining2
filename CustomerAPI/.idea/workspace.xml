@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45586ce4-5789-4ff3-8f68-290df327c911" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CustomerAPI/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CustomerAPI/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CustomerAPI/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CustomerAPI/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CustomerAPI/src/main/java/org/example/application/CustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CustomerAPI/src/main/java/org/example/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CustomerAPI/src/main/java/org/example/resources/CustomerResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0bfcc159-ec43-4d78-b740-67b5387a034d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/application/CustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/application/db/DbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/resources/CustomerResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomerJAXRSAPI/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerJAXRSAPI/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerJAXRSAPI/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerJAXRSAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerJAXRSAPI/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2STIn504EOAVDxpllRqydu32sT7" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar!/jakarta/ws/rs/core/Application.class" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/model/Customer.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2STwfJvV1uDd0W3rtLyFeeIylCa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,7 +46,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -56,14 +61,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.example.model" />
       <recent name="org.example.resources" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
-      <module name="CustomerJAXRSAPI" />
+      <module name="CustomerAPI" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -83,14 +87,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="45586ce4-5789-4ff3-8f68-290df327c911" name="Changes" comment="" />
-      <created>1689164309991</created>
+      <changelist id="0bfcc159-ec43-4d78-b740-67b5387a034d" name="Changes" comment="" />
+      <created>1689183982045</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1689164309991</updated>
-      <workItem from="1689164311344" duration="3291000" />
-      <workItem from="1689183876430" duration="1388000" />
-      <workItem from="1689185277661" duration="151000" />
+      <updated>1689183982045</updated>
+      <workItem from="1689183983506" duration="1281000" />
+      <workItem from="1689185276216" duration="155000" />
+      <workItem from="1689185447223" duration="149000" />
+      <workItem from="1689185616375" duration="1001000" />
     </task>
     <servers />
   </component>
